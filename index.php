@@ -22,6 +22,6 @@ $secondsPassed = $time - $timeOnBirth;
 </head>
 <body>
 
-<p><?= $secondsPassed ?> </p>
+<p>Age in seconds: <?= $secondsPassed ?> </p>
 </body>
 </html>
