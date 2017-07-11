@@ -6,13 +6,9 @@
  * Time: 1:22 AM
  */
 
-
 $time = time();
-
 $timeOnBirth = mktime(23, 25, 0, 8, 15, 1995);
-
 $secondsPassed = $time - $timeOnBirth;
-
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +17,6 @@ $secondsPassed = $time - $timeOnBirth;
     <title>Time</title>
 </head>
 <body>
-
-<p>Age in seconds: <?= $secondsPassed ?> </p>
+    <p>Age in seconds: <?= $secondsPassed ?> </p>
 </body>
 </html>
